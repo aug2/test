@@ -10,8 +10,9 @@ test
  * Kik
  * Dear
  
- 
- How to run (Command Line Interface)
- ---
+[FizzBuzz Rule](http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz)
+
+How to run (Command Line Interface)
+---
  
     mvn clean test
