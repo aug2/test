@@ -4,38 +4,34 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class FizzBuzzTest {
-
-//เป็นคลาสที่เขียนขึ้นมาเพื่อเทสโปรแกรม โดยมองเป็น unit หรือ unit test
-//junit test
-	
     @Test
     public void input1ShouldReturn1(){
         FizzBuzz fizzBuzz = new FizzBuzz();
-        Assert.assertEquals("1", fizzBuzz.getMessage());
+        Assert.assertEquals("1", fizzBuzz.getMessage("1"));
     }
     
     @Test
     public void input3ShouldReturnfizz(){
         FizzBuzz fizzBuzz = new FizzBuzz();
-        Assert.assertEquals("fizz", fizzBuzz.getMessage());
+        Assert.assertEquals("fizz", fizzBuzz.getMessage("3"));
     }
     
     @Test
     public void input5ShouldReturnbuzz(){
         FizzBuzz fizzBuzz = new FizzBuzz();
-        Assert.assertEquals("buzz", fizzBuzz.getMessage());
+        Assert.assertEquals("buzz", fizzBuzz.getMessage("5"));
     }
     
     
     @Test
     public void input15ShouldReturnfizzbuzz(){
         FizzBuzz fizzBuzz = new FizzBuzz();
-        Assert.assertEquals("fizzbuzz", fizzBuzz.getMessage());
+        Assert.assertEquals("fizzbuzz", fizzBuzz.getMessage("15"));
     }
     
     @Test
     public void input2ShouldReturn2(){
         FizzBuzz fizzBuzz = new FizzBuzz();
-        Assert.assertEquals("2", fizzBuzz.getMessage());
+        Assert.assertEquals("2", fizzBuzz.getMessage("2"));
     }
 }
