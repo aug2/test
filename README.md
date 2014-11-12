@@ -10,7 +10,9 @@ test
  * Kik
  * Dear
  
-[FizzBuzz Rule](http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz)
+[Fizz Buzz](http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz)
+
+[Number In Words](http://codingdojo.org/cgi-bin/index.pl?KataNumbersInWords)
 
 How to run (Command Line Interface)
 ---
