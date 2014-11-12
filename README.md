@@ -8,7 +8,7 @@ test
  * May
  * Bill
  * Kik
- * Dear
+ * Dear *
  
 [FizzBuzz Rule](http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz)
 
