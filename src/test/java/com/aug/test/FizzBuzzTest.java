@@ -18,25 +18,30 @@ public class FizzBuzzTest {
     public void input1ShouldReturn1(){
         assertEquals("1", fizzBuzz.getMessage("1"));
     }
-    
+
     @Test
-    public void input3ShouldReturnfizz(){
-        assertEquals("fizz", fizzBuzz.getMessage("3"));
+    public void input3ShouldReturnFizz(){
+        assertEquals("Fizz", fizzBuzz.getMessage("3"));
     }
-    
+
     @Test
     public void input5ShouldReturnbuzz(){
-        assertEquals("buzz", fizzBuzz.getMessage("5"));
+        assertEquals("Buzz", fizzBuzz.getMessage("5"));
     }
-    
-    
+
+
     @Test
     public void input15ShouldReturnfizzbuzz(){
-        assertEquals("fizzbuzz", fizzBuzz.getMessage("15"));
+        assertEquals("FizzBuzz", fizzBuzz.getMessage("15"));
     }
-    
+
     @Test
     public void input2ShouldReturn2(){
         assertEquals("2", fizzBuzz.getMessage("2"));
+    }
+
+    @Test
+    public void input7ShouldReturnBoo(){
+        assertEquals("Boo", fizzBuzz.getMessage("7"));
     }
 }
