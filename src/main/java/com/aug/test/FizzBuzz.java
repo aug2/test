@@ -4,11 +4,13 @@ public class FizzBuzz {
 
     public String getMessage(String input) {
         if (Integer.parseInt(input) % 15 == 0) {
-            return "fizzbuzz";
+            return "FizzBuzz";
         }else if (Integer.parseInt(input) % 3 == 0) {
-            return "fizz";
+            return "Fizz";
         } else if (Integer.parseInt(input) % 5 == 0) {
-            return "buzz";
+            return "Buzz";
+        }else if (Integer.parseInt(input) % 7 == 0) {
+            return "Boo"; 
         } else {
             return input;
         }
