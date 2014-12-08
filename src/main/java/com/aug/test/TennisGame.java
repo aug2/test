@@ -11,6 +11,9 @@ public class TennisGame {
     }
 
     public String getScore() {
-        return null;
+       return "Love all";
+    }
+
+    public void playerScore(int scoreA, int scoreB) {
     }
 }
