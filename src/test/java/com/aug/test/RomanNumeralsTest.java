@@ -7,8 +7,14 @@ import static org.junit.Assert.assertEquals;
 public class RomanNumeralsTest {
 
     @Test
-    public void newGameShouldReturnLoveAll() throws Exception {
+    public void oneShouldReturnI() throws Exception {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("I", romanNumerals.convert(1));
+    }
+
+    @Test
+    public void twoShouldReturnII() throws Exception {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("II", romanNumerals.convert(2));
     }
 }
